@@ -1,0 +1,202 @@
+body{
+    font-family: 'Montserrat-black';
+}
+
+#title{
+    background-color: #ff4c68;   
+}
+
+.h1{
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.download-btn{
+   margin: 5% 5% 5% 0;
+}
+
+.image-title{
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features{
+    
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.feature-heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.feature-col{
+    text-align: center;
+    padding: 4%;
+    
+}
+.para-feature{
+    text-align: center;
+    margin: 5%;
+}
+
+.icon{
+    height: 15%;
+    width: 31%;
+    color: #f98a9b;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    p
+    
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.h2 {
+    margin: 5%;
+    font-weight: bold;
+    line-height: 3;
+    color: #fff;
+    font-family: 'Ubuntu';
+}
+
+
+.testomonials-image{
+    width: 10%;
+    border-radius: 100% ;
+    margin: 10px;
+}
+
+#press{
+    background-color:#ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+
+#pricing{
+    padding: 100px
+}
+
+
+.h2-pricing{
+    color: black;
+    margin: 2%;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Ubuntu';
+}
+
+
+.p-pricing{
+    font-size: 20px;
+}
+
+.pricing-col{
+    padding: 3% 3%;
+}
+
+
+
+
+@media (max-width:1029px){
+    #title{
+        text-align: center;  
+    }
+
+    .image-title{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+
+
+
+/* Call to action */
+
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.h3-cta{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+
+/* Fotter */
+
+
+#footer{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+
+.fotter-para{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-icon{
+    margin-right: 25px;
+    margin-left: 25px;
+}
